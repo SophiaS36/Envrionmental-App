@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if let nextVC = segue.destination as? QuizViewController {
+                nextVC.container = container
+            }
+        }
+
 
 }
-
