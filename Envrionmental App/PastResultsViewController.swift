@@ -1,5 +1,5 @@
 //
-//  ResultsViewController.swift
+//  PastResultsViewController.swift
 //  Envrionmental App
 //
 //  Created by Sophia Spooner on 8/5/21.
@@ -7,18 +7,15 @@
 
 import UIKit
 
-class ResultsViewController: UIViewController {
-   
+class PastResultsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        
     }
     
-    
+
     /*
     // MARK: - Navigation
 
@@ -30,5 +27,3 @@ class ResultsViewController: UIViewController {
     */
 
 }
-
-

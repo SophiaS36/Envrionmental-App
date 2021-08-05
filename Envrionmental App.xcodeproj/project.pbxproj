@@ -22,6 +22,13 @@
 		F8BF82E126BAFAC800279DF0 /* Envrionmental_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF82E026BAFAC800279DF0 /* Envrionmental_AppUITests.swift */; };
 		F8BF82EF26BAFE0C00279DF0 /* AboutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF82EE26BAFE0C00279DF0 /* AboutPageViewController.swift */; };
 		F8BF82F126BAFE2300279DF0 /* ResourcesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF82F026BAFE2300279DF0 /* ResourcesPageViewController.swift */; };
+		F8C9C57F26BC70A000E3748D /* QuizTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C57E26BC70A000E3748D /* QuizTwoViewController.swift */; };
+		F8C9C58126BC70AC00E3748D /* QuizThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C58026BC70AC00E3748D /* QuizThreeViewController.swift */; };
+		F8C9C58326BC70E100E3748D /* ActivityAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C58226BC70E100E3748D /* ActivityAddViewController.swift */; };
+		F8C9C58526BC710100E3748D /* PastResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C58426BC710100E3748D /* PastResultsViewController.swift */; };
+		F8C9C58726BC710F00E3748D /* ImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C58626BC710F00E3748D /* ImpactViewController.swift */; };
+		F8C9C58926BC712100E3748D /* SolutionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C58826BC712100E3748D /* SolutionsViewController.swift */; };
+		F8C9C58B26BC74C100E3748D /* QuizOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C9C58A26BC74C100E3748D /* QuizOneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,13 @@
 		F8BF82E226BAFAC800279DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8BF82EE26BAFE0C00279DF0 /* AboutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageViewController.swift; sourceTree = "<group>"; };
 		F8BF82F026BAFE2300279DF0 /* ResourcesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesPageViewController.swift; sourceTree = "<group>"; };
+		F8C9C57E26BC70A000E3748D /* QuizTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTwoViewController.swift; sourceTree = "<group>"; };
+		F8C9C58026BC70AC00E3748D /* QuizThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizThreeViewController.swift; sourceTree = "<group>"; };
+		F8C9C58226BC70E100E3748D /* ActivityAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAddViewController.swift; sourceTree = "<group>"; };
+		F8C9C58426BC710100E3748D /* PastResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastResultsViewController.swift; sourceTree = "<group>"; };
+		F8C9C58626BC710F00E3748D /* ImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactViewController.swift; sourceTree = "<group>"; };
+		F8C9C58826BC712100E3748D /* SolutionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionsViewController.swift; sourceTree = "<group>"; };
+		F8C9C58A26BC74C100E3748D /* QuizOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizOneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +132,15 @@
 				F8BF82BF26BAFAC200279DF0 /* ViewController.swift */,
 				F8BF82C126BAFAC200279DF0 /* Main.storyboard */,
 				F871B46C26BB11E3001EFFDC /* QuizHomeViewController.swift */,
+				F8C9C58A26BC74C100E3748D /* QuizOneViewController.swift */,
+				F8C9C57E26BC70A000E3748D /* QuizTwoViewController.swift */,
+				F8C9C58026BC70AC00E3748D /* QuizThreeViewController.swift */,
 				F8BF82F026BAFE2300279DF0 /* ResourcesPageViewController.swift */,
 				F871B47026BC3E85001EFFDC /* ResultsViewController.swift */,
+				F8C9C58826BC712100E3748D /* SolutionsViewController.swift */,
+				F8C9C58226BC70E100E3748D /* ActivityAddViewController.swift */,
+				F8C9C58426BC710100E3748D /* PastResultsViewController.swift */,
+				F8C9C58626BC710F00E3748D /* ImpactViewController.swift */,
 				F8BF82EE26BAFE0C00279DF0 /* AboutPageViewController.swift */,
 				F8BF82C726BAFAC700279DF0 /* Assets.xcassets */,
 				F8BF82C926BAFAC700279DF0 /* LaunchScreen.storyboard */,
@@ -282,13 +303,20 @@
 				F871B46D26BB11E3001EFFDC /* QuizHomeViewController.swift in Sources */,
 				F8BF82EF26BAFE0C00279DF0 /* AboutPageViewController.swift in Sources */,
 				F8BF82F126BAFE2300279DF0 /* ResourcesPageViewController.swift in Sources */,
+				F8C9C58326BC70E100E3748D /* ActivityAddViewController.swift in Sources */,
 				F8BF82C626BAFAC200279DF0 /* Envrionmental_App.xcdatamodeld in Sources */,
+				F8C9C58126BC70AC00E3748D /* QuizThreeViewController.swift in Sources */,
 				F8BF82C026BAFAC200279DF0 /* ViewController.swift in Sources */,
+				F8C9C58926BC712100E3748D /* SolutionsViewController.swift in Sources */,
+				F8C9C58B26BC74C100E3748D /* QuizOneViewController.swift in Sources */,
+				F8C9C58726BC710F00E3748D /* ImpactViewController.swift in Sources */,
 				F871B47426BC45AF001EFFDC /* QuestionData.xcdatamodeld in Sources */,
 				F871B47126BC3E85001EFFDC /* ResultsViewController.swift in Sources */,
 				F8BF82BC26BAFAC200279DF0 /* AppDelegate.swift in Sources */,
+				F8C9C57F26BC70A000E3748D /* QuizTwoViewController.swift in Sources */,
 				F8BF82BE26BAFAC200279DF0 /* SceneDelegate.swift in Sources */,
 				F871B46F26BB2468001EFFDC /* QuestionData.swift in Sources */,
+				F8C9C58526BC710100E3748D /* PastResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
